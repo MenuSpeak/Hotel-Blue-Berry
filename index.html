@@ -1247,8 +1247,14 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 
 
 
-   <div class="tabs-scroll">
+   <div class="tabs-scroll">       
 <button class="tab active" data-cat="all">🍽️ All Items</button>
+<button class="tab" data-cat="Paneer Special">🧀 Paneer Specials</button>
+<button class="tab" data-cat="Veg Special">🥦 Veg Specials</button>
+<button class="tab" data-cat="Rice">🍚 Rice Items</button>
+<button class="tab" data-cat="Chicken Special">🍗 Chicken Specials</button>
+<button class="tab" data-cat="Thali Special">🍱 Thali Specials</button>
+<button class="tab" data-cat="Seafood Special">🐟 Seafood Specials</button>
 <button class="tab" data-cat="व्हेज स्टाटर">🥗 Veg Starters</button>
 <button class="tab" data-cat="व्हेज मेनू">🍲 Veg Menu</button>
 <button class="tab" data-cat="व्हेज थाळी">🍱 Veg Thali</button>
@@ -1262,8 +1268,6 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 <button class="tab" data-cat="नॉन-व्हेज मेनू">🍖 Non-Veg Menu</button>
 <button class="tab" data-cat="बिर्याणी स्पेशल">👑 Biryani Special</button>
 <button class="tab" data-cat="बिर्याणी स्पेशल (बनवणे)">⚖️ Biryani By KG</button>
-
-   
    </div>  
                 </div>
             </div>
@@ -1408,6 +1412,75 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     <script>
         // Menu Data - FIXED VERSION
         const data = [
+
+
+
+  {"id": 189, "cat": "Paneer Special", "name": "पनीर मसाला | Paneer Masala", "price": "Rs. 220", "desc": "Soft paneer cubes cooked in a traditional flavorful onion-tomato gravy.", "tags": ["Veg", "Paneer"], "img": "img/paneer_masala.jpeg"},
+  {"id": 190, "cat": "Paneer Special", "name": "काजू पनीर मसाला | Kaju Paneer Masala", "price": "Rs. 280", "desc": "Rich combination of roasted cashew nuts and cottage cheese in a spiced gravy.", "tags": ["Veg", "Paneer"], "img": "img/kaju_paneer_masala.jpeg"},
+  {"id": 191, "cat": "Paneer Special", "name": "मटर पनीर मसाला | Mutter Paneer Masala", "price": "Rs. 260", "desc": "Classic combination of soft paneer cubes and green peas in a savory gravy.", "tags": ["Veg", "Paneer"], "img": "img/mutter_paneer_masala.jpeg"},
+  {"id": 192, "cat": "Paneer Special", "name": "पनीर टिक्का मसाला | Paneer Tikka Masala", "price": "Rs. 280", "desc": "Tandoor-grilled smoky paneer tikkas simmered in a spicy Punjabi gravy.", "tags": ["Veg", "Paneer"], "img": "img/paneer_tikka_masala.jpeg"},
+  {"id": 193, "cat": "Paneer Special", "name": "पनीर बटर मसाला | Paneer Butter Masala", "price": "Rs. 250", "desc": "Rich and creamy tomato gravy loaded with soft paneer and lots of butter.", "tags": ["Veg", "Paneer"], "img": "img/paneer_butter_masala.jpeg"},
+  {"id": 195, "cat": "Paneer Special", "name": "पनीर मशरुम मसाला | Paneer Mushroom Masala", "price": "Rs. 240", "desc": "Delicious curry made with cottage cheese cubes and fresh button mushrooms.", "tags": ["Veg", "Paneer"], "img": "img/paneer_mushroom_masala.jpeg"},
+          
+  {"id": 187, "cat": "Paneer Special", "name": "पनीर मशरुम मसाला | Paneer Mushroom Masala", "price": "Rs. 240", "desc": "Delicious curry made with cottage cheese cubes and fresh button mushrooms.", "tags": ["Veg", "Paneer"], "img": "img/paneer_mushroom_masala.jpeg"},
+  {"id": 151, "cat": "Paneer Special", "name": "पनीर मसाला | Paneer Masala", "price": "Rs. 220", "desc": "Soft paneer cubes cooked in a traditional flavorful onion-tomato gravy.", "tags": ["Veg", "Paneer"], "img": "img/paneer_masala.jpeg"},
+  {"id": 152, "cat": "Paneer Special", "name": "पनीर बटर मसाला | Paneer Butter Masala", "price": "Rs. 250", "desc": "Rich and creamy tomato gravy loaded with soft paneer and lots of butter.", "tags": ["Veg", "Paneer"], "img": "img/paneer_butter_masala.jpeg"},
+  {"id": 153, "cat": "Paneer Special", "name": "काजू पनीर मसाला | Kaju Paneer Masala", "price": "Rs. 280", "desc": "Rich combination of roasted cashew nuts and cottage cheese in a spiced gravy.", "tags": ["Veg", "Paneer"], "img": "img/kaju_paneer_masala.jpeg"},
+  {"id": 154, "cat": "Paneer Special", "name": "मटर पनीर मसाला | Mutter Paneer Masala", "price": "Rs. 260", "desc": "Classic combination of soft paneer cubes and green peas in a savory gravy.", "tags": ["Veg", "Paneer"], "img": "img/mutter_paneer_masala.jpeg"},
+  {"id": 155, "cat": "Paneer Special", "name": "पनीर टिक्का मसाला | Paneer Tikka Masala", "price": "Rs. 300", "desc": "Tandoor-grilled smoky paneer tikkas simmered in a spicy Punjabi gravy.", "tags": ["Veg", "Paneer"], "img": "img/paneer_tikka_masala.jpeg"},
+  {"id": 156, "cat": "Paneer Special", "name": "पनीर मख्खनवाला | Paneer Makhanwala", "price": "Rs. 250", "desc": "Mildly sweet and creamy gravy with soft paneer chunks, finished with cream.", "tags": ["Veg", "Paneer"], "img": "img/paneer_makhanwala.jpeg"},
+  {"id": 157, "cat": "Paneer Special", "name": "पनीर कॉर्न मसाला | Paneer Corn Masala", "price": "Rs. 200", "desc": "A delightful blend of sweet corn kernels and cottage cheese in a rich gravy.", "tags": ["Veg", "Paneer"], "img": "img/paneer_corn_masala.jpeg"},
+  {"id": 158, "cat": "Veg Special", "name": "मिक्स व्हेज़ | Mix Veg", "price": "Rs. 150", "desc": "A classic semi-dry preparation of assorted fresh seasonal vegetables.", "tags": ["Veg", "Main Course"], "img": "img/mix_veg.jpeg"},
+  {"id": 159, "cat": "Veg Special", "name": "व्हेज़ कोल्हापुरी | Veg Kolhapuri", "price": "Rs. 190", "desc": "Spicy mixed vegetable curry cooked with authentic Kolhapuri masalas.", "tags": ["Veg", "Main Course"], "img": "img/veg_kolhapuri.jpeg"},
+  {"id": 160, "cat": "Veg Special", "name": "ग्रीन पीस मसाला | Green Peas Masala", "price": "Rs. 140", "desc": "Sweet green peas slow-cooked in a rich medium-spicy gravy base.", "tags": ["Veg", "Main Course"], "img": "img/green_peas_masala.jpeg"},
+  {"id": 161, "cat": "Veg Special", "name": "व्हेज़ हंडी | Veg Handi", "price": "Rs. 500", "desc": "Assorted vegetables slow-cooked in a traditional heavy-bottomed handi.", "tags": ["Veg", "Main Course"], "img": "img/veg_handi.jpeg"},
+  {"id": 162, "cat": "Veg Special", "name": "काजू मशरुम मसाला | Kaju Mushroom Masala", "price": "Rs. 170", "desc": "Rich gravy combining premium roasted cashews and fresh button mushrooms.", "tags": ["Veg", "Main Course"], "img": "img/kaju_mushroom_masala.jpeg"},
+  {"id": 163, "cat": "Veg Special", "name": "शेव भाजी | Shev Bhaji", "price": "Rs. 100", "desc": "Crispy gram flour sev dunked in a spicy and aromatic rassa gravy.", "tags": ["Veg", "Main Course"], "img": "img/shev_bhaji.jpeg"},
+  {"id": 164, "cat": "Veg Special", "name": "अख्खा मसूर | Akhkha Masoor", "price": "Rs. 120", "desc": "Flavorful whole brown lentil curry tempered with garlic and onions.", "tags": ["Veg", "Main Course"], "img": "img/akhkha_masoor.jpeg"},
+  {"id": 165, "cat": "Veg Special", "name": "दाल फ्राय | Dal Fry", "price": "Rs. 110", "desc": "Yellow lentils cooked and fried with onions, tomatoes, and garlic.", "tags": ["Veg", "Main Course"], "img": "img/dal_fry.jpeg"},
+  {"id": 166, "cat": "Veg Special", "name": "दाल तडका | Dal Tadka", "price": "Rs. 140", "desc": "Smooth yellow dal topped with a sizzling ghee, cumin, and red chilli tadka.", "tags": ["Veg", "Main Course"], "img": "img/dal_tadka.jpeg"},
+  {"id": 167, "cat": "Veg Special", "name": "काजू मसाला | Kaju Masala", "price": "Rs. 220", "desc": "Fried whole cashew nuts simmered in a highly seasoned rich brown gravy.", "tags": ["Veg", "Main Course"], "img": "img/kaju_masala.jpeg"},
+  {"id": 168, "cat": "Veg Special", "name": "काजू करी | Kaju Curry", "price": "Rs. 200", "desc": "Roasted cashews cooked in a premium mildly sweet cream curry.", "tags": ["Veg", "Main Course"], "img": "img/kaju_curry.jpeg"},
+  {"id": 169, "cat": "Veg Special", "name": "स्पे. व्हेज़ हंडी | Spl Veg Handi", "price": "Rs. 600", "desc": "Chef's signature rich mixed vegetable masterpiece cooked in a clay vessel.", "tags": ["Veg", "Main Course"], "img": "img/spl_veg_handi.jpeg"},
+  {"id": 170, "cat": "Veg Special", "name": "पालक पनीर | Palak Paneer", "price": "", "desc": "Classic combination of soft cottage cheese cubes inside a smooth spiced spinach cream.", "tags": ["Veg", "Paneer"], "img": "img/palak_paneer.jpeg"},
+  {"id": 171, "cat": "Veg Special", "name": "प्लेन पालक | Plain Palak", "price": "", "desc": "Healthy pureed spinach curry lightly tempered with garlic and cumin seeds.", "tags": ["Veg", "Main Course"], "img": "img/plain_palak.jpeg"},
+  {"id": 187, "cat": "Veg Special", "name": "मिक्स व्हेज़ | Mix Veg", "price": "Rs. 150", "desc": "A classic semi-dry preparation of assorted fresh seasonal vegetables.", "tags": ["Veg", "Main Course"], "img": "img/mix_veg.jpeg"},
+  {"id": 188, "cat": "Veg Special", "name": "व्हेज़ कोल्हापुरी | Veg Kolhapuri", "price": "Rs. 190", "desc": "Spicy mixed vegetable curry cooked with authentic Kolhapuri masalas.", "tags": ["Veg", "Main Course"], "img": "img/veg_kolhapuri.jpeg"},
+  {"id": 194, "cat": "Veg Special", "name": "काजू मसाला | Kaju Masala", "price": "Rs. 180", "desc": "Fried whole cashew nuts simmered in a highly seasoned rich brown gravy.", "tags": ["Veg", "Main Course"], "img": "img/kaju_masala.jpeg"},
+  {"id": 197, "cat": "Veg Special", "name": "दाल तडका | Dal Tadka", "price": "Rs. 150", "desc": "Smooth yellow dal topped with a sizzling ghee, cumin, and red chilli tadka.", "tags": ["Veg", "Main Course"], "img": "img/dal_tadka.jpeg"},
+  {"id": 198, "cat": "Veg Special", "name": "दाल फ्राय | Dal Fry", "price": "Rs. 120", "desc": "Yellow lentils cooked and fried with onions, tomatoes, and garlic.", "tags": ["Veg", "Main Course"], "img": "img/dal_fry.jpeg"},
+  {"id": 199, "cat": "Veg Special", "name": "व्हेज़ हंडी | Veg Handi", "price": "Rs. 400", "desc": "Assorted vegetables slow-cooked in a traditional heavy-bottomed handi.", "tags": ["Veg", "Main Course"], "img": "img/veg_handi.jpeg"},
+  {"id": 200, "cat": "Veg Special", "name": "ग्रीन पीस मसाला | Green Peas Masala", "price": "Rs. 140", "desc": "Sweet green peas slow-cooked in a rich medium-spicy gravy base.", "tags": ["Veg", "Main Course"], "img": "img/green_peas_masala.jpeg"},
+  {"id": 201, "cat": "Veg Special", "name": "मशरुम मसाला | Mushroom Masala", "price": "Rs. 170", "desc": "Button mushroom segments slow-simmered down in a rich thick onion reduction gravy.", "tags": ["Veg", "Main Course"], "img": "img/mushroom_masala.jpeg"},
+  {"id": 202, "cat": "Veg Special", "name": "अख्खा मसूर | Akhkha Masoor", "price": "Rs. 120", "desc": "Flavorful whole brown lentil curry tempered with garlic and onions.", "tags": ["Veg", "Main Course"], "img": "img/akhkha_masoor.jpeg"},
+  {"id": 203, "cat": "Veg Special", "name": "शेव भाजी | Shev Bhaji", "price": "Rs. 100", "desc": "Crispy gram flour sev dunked in a spicy and aromatic rassa gravy.", "tags": ["Veg", "Main Course"], "img": "img/shev_bhaji.jpeg"},
+
+              
+  {"id": 172, "cat": "Rice", "name": "स्टीम राईस | Steamed Rice", "price": "Rs. 100", "desc": "Perfectly boiled premium fluffy basmati rice.", "tags": ["Veg", "Rice"], "img": "img/steamed_rice.jpeg"},
+  {"id": 173, "cat": "Rice", "name": "जीरा राईस | Jeera Rice", "price": "Rs. 80", "desc": "Fragrant basmati rice tossed with crunchy cumin seeds and ghee.", "tags": ["Veg", "Rice"], "img": "img/jeera_rice.jpeg"},
+  {"id": 174, "cat": "Rice", "name": "व्हेज़ पुलाव | Veg Pulao", "price": "Rs. 140", "desc": "Mildly spiced aromatic rice cooked with assorted garden vegetables.", "tags": ["Veg", "Rice"], "img": "img/veg_pulao.jpeg"},
+  {"id": 175, "cat": "Rice", "name": "व्हेज़ दिवाणी | Veg Deewani", "price": "Rs. 220", "desc": "Premium rich vegetable rice preparation finished with cream and nuts.", "tags": ["Veg", "Rice"], "img": "img/veg_deewani_rice.jpeg"},
+  {"id": 176, "cat": "Rice", "name": "पिन पुलाव | Pin Pulao", "price": "Rs. 150", "desc": "Special aromatic pulao preparation with signature toppings.", "tags": ["Veg", "Rice"], "img": "img/pin_pulao.jpeg"},
+  {"id": 177, "cat": "Rice", "name": "पनीर पुलाव | Paneer Pulao", "price": "Rs. 200", "desc": "Fragrant basmati rice dish loaded with soft pan-fried paneer cubes.", "tags": ["Veg", "Rice"], "img": "img/paneer_pulao.jpeg"},
+  {"id": 178, "cat": "Chicken Special", "name": "चिकन मसाला | Chicken Masala", "price": "", "desc": "Succulent chicken portions cooked inside a highly robust and flavor-packed semi-thick gravy.", "tags": ["Non-Veg", "Chicken"], "img": "img/chicken_masala.jpeg"},
+  {"id": 179, "cat": "Chicken Special", "name": "चिकन मोगलाई | Chicken Moghlai", "price": "", "desc": "Rich royal chicken curry cooked in an egg-infused creamy cashew nut sauce.", "tags": ["Non-Veg", "Chicken"], "img": "img/chicken_moghlai.jpeg"},
+  {"id": 180, "cat": "Chicken Special", "name": "चिकन कोल्हापुरी | Chicken Kolhapuri", "price": "", "desc": "Extra fiery, hot chicken recipe utilizing authentic local hand-pounded Kolhapuri spices.", "tags": ["Non-Veg", "Chicken"], "img": "img/chicken_kolhapuri.jpeg"},
+  {"id": 181, "cat": "Chicken Special", "name": "चिकन अंगारा | Chicken Angara", "price": "", "desc": "A smoky chicken curry cooked with dense spices and a charcoal-smoke infusion.", "tags": ["Non-Veg", "Chicken"], "img": "img/chicken_angara.jpeg"},
+  {"id": 182, "cat": "Chicken Special", "name": "चिकन टिक्का मसाला | Chicken Tikka Masala", "price": "", "desc": "Boneless tandoori chicken tikkas dropped into a rich, spicy and textured Punjabi gravy.", "tags": ["Non-Veg", "Chicken"], "img": "img/chicken_tikka_masala.jpeg"},
+  {"id": 183, "cat": "Chicken Special", "name": "बटर चिकन (फुल/हाफ) | Butter Chicken (Full/Half)", "price": "", "desc": "Tender chicken elements cooked inside a velvety, sweet-savory tomato butter cream curry.", "tags": ["Non-Veg", "Chicken"], "img": "img/butter_chicken.jpeg"},
+  {"id": 184, "cat": "Chicken Special", "name": "चिकन हंडी (फुल) | Chicken Handi (Full)", "price": "", "desc": "Chicken pieces cooked slow inside an authentic clay handi vessel gravy (Full Portion).", "tags": ["Non-Veg", "Chicken"], "img": "img/chicken_handi_full.jpeg"},
+  {"id": 185, "cat": "Chicken Special", "name": "चिकन हंडी (हाफ) | Chicken Handi (Half)", "price": "", "desc": "Chicken pieces cooked slow inside an authentic clay handi vessel gravy (Half Portion).", "tags": ["Non-Veg", "Chicken"], "img": "img/chicken_handi_half.jpeg"},
+  {"id": 186, "cat": "Chicken Special", "name": "चिकन स्पे. हंडी | Chicken Spl Handi", "price": "", "desc": "Chef's signature rich and grand country-style chicken handi masterpiece.", "tags": ["Non-Veg", "Chicken"], "img": "img/chicken_spl_handi.jpeg"},
+
+
+  {"id": 204, "cat": "Thali Special", "name": "व्हेज थाळी | Veg Thali", "price": "Rs. 220", "desc": "A wholesome complete platter serving assorted vegetable curries, dal, rice, and roti.", "tags": ["Veg", "Thali"], "img": "img/veg_thali.jpeg"},
+  {"id": 205, "cat": "Thali Special", "name": "चिकन थाळी | Chicken Thali", "price": "Rs. 280", "desc": "Sumptuous platter carrying standard chicken gravy, dry chicken fry, rassa, rice, and flatbreads.", "tags": ["Non-Veg", "Thali"], "img": "img/chicken_thali.jpeg"},
+  {"id": 206, "cat": "Thali Special", "name": "सुरमई थाळी | Surmai Thali", "price": "Rs. 450", "desc": "Premium coastal fish thali serving crispy fried Surmai, specialized fish curry, rassa, and rice.", "tags": ["Non-Veg", "Thali"], "img": "img/surmai_thali.jpeg"},
+  {"id": 196, "cat": "Seafood Special", "name": "कोळंबी मसाला | Kolembhi Masala", "price": "Rs. 300", "desc": "Authentic coastal style prawn curry cooked in a rich and flavorful spiced gravy.", "tags": ["Non-Veg", "Seafood"], "img": "img/kolembhi_masala.jpeg"},
+
+
+
+       
   {"id": 1, "cat": "व्हेज स्टाटर", "name": "फ्राय पापड | Fry Papad", "price": "Rs. 20", "desc": "Crispy deep-fried lentil crackers, perfect as an appetizer.", "tags": ["Veg", "Starter"], "img": "img/fry_papad.jpg"},
   {"id": 2, "cat": "व्हेज स्टाटर", "name": "रोस्टेड पापड | Roasted Papad", "price": "Rs. 20", "desc": "Traditional dry-roasted crisp lentil crackers.", "tags": ["Veg", "Starter"], "img": "img/roasted_papad.jpg"},
   {"id": 3, "cat": "व्हेज स्टाटर", "name": "मसाला पापड | Masala Papad", "price": "Rs. 30", "desc": "Crispy papad topped with spicy chopped onions, tomatoes, and chat masala.", "tags": ["Veg", "Starter"], "img": "img/masala_papad.jpg"},
